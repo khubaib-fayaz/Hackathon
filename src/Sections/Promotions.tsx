@@ -21,7 +21,7 @@ export default function Promotions() {
             <p>For the summer<br/> reason</p>
             </div>
             <div>
-                <Image src={prom1} alt='promotion01'/>
+                <Image src={prom1} alt='promotion01' className='hidden lg:inline-flex'/>
             </div>
     </div> 
     <div className='bg-gray-900 text-white text-center py-10 mt-5 hover:scale-110'>

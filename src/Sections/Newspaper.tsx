@@ -4,9 +4,9 @@ import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 export default function Newspaper() {
   return (
-    <div className=' mt-16'>
+    <div className='mt-16'>
      
-<div className='flex justify-between'>
+<div className='hidden lg:inline-flex justify-between'>
   <div></div>
 <div><h1 className="scroll-m-20 text-4xl text-right font-extrabold tracking-tight lg:text-5xl mt-6">
 Unique and Authentic Vintage Designer Jewellery
@@ -14,7 +14,7 @@ Unique and Authentic Vintage Designer Jewellery
 </div>
 <div></div>
 
-<div className='lg:flex flex-row justify-evenly space-x-20 mt-16'> 
+<div className='hidden lg:inline-flex flex-row justify-evenly space-x-20 mt-16'> 
 <div className='flex space-x-5'>
 <div>
     <h2 className='text-lg mt-3 font-bold'>Using Good Quality Materials</h2>
