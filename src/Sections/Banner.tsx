@@ -2,7 +2,8 @@ import React from 'react'
 import feature from '/public/feature.webp'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
-export default function Newspaper() {
+export default function Banner
+() {
   return (
     <div className='mt-16'>
      

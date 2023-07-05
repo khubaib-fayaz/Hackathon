@@ -6,7 +6,7 @@ import { FacebookIcon,TwitterIcon,LinkedinIcon } from 'lucide-react'
 const Footer = () => {
   return (
     <footer>
-    <div className='flex flex-col lg:flex-row mt-16 justify-between '>
+    <div className='flex flex-col lg:flex-row mt-20 justify-between '>
         <div  className='space-y-3'>
             <div><Image src={logo} width={180} height={30} alt='logo' /></div>
             <div><p>Small, artisan label that offers a<br/> thoughtfully curated<br/> collection of high quality<br/> everyday essentials made.</p></div>
